@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>ny search</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/ImageHeader.css">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+
+<body style="/*text-align: center;*/">
+    <div id="banner"><img src="/assets/img/nyt_banner.png"></div>
+    <div class="container border rounded-0 border-primary"><label class="d-flex">Search Term</label><input type="text" id="searchTerm"><label class="d-flex">Number of records to retrieve</label>
+        <div class="dropdown"><button class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false" type="button">Dropdown </button>
+            <div class="dropdown-menu" role="menu">
+                <div value="1"></div>
+            </div>
+        </div><label class="d-flex">Start Year (optional)</label><input type="number" id="startYear"><label class="d-flex">End Year (optional)</label><input type="number" id="startYear">
+        <div class="row">
+            <div class="col d-inline-flex">
+                <div><button class="btn btn-primary d-flex" type="button">Search</button></div><button class="btn btn-primary d-flex" type="button">Clear Results</button></div>
+        </div>
+    </div>
+    <div class="container text-nowrap text-primary border rounded-0 border-primary" id="topArticles">
+        <h1>Top Articles</h1>
+        <div id="articles"></div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
